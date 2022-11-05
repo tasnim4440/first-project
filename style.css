@@ -1,0 +1,149 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.fff{
+    background-color: rgb(173, 7, 7);
+    font-size: large; 
+}
+.fff a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    font-size:larger
+}
+.fff:hover{
+    background-color: rgba(173, 7, 7, 0.623);
+}
+.fff a:hover{
+    color: black;
+}
+.img{
+    border: 3px rgb(173, 7, 7) solid;
+    
+        border-radius: 125px ;
+    }
+.TTT{
+    display: inline-block;
+}
+.TTT p{
+    text-align:end;
+     margin-left: 250px;
+     margin-top: 100px;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 4vw;
+     margin-bottom: 0px;
+}
+hr{
+    color:rgb(173, 7, 7);
+}
+select{
+    padding: 10px;
+    background-color: rgb(173, 7, 7);
+   
+}
+
+select:hover{
+    color: azure;
+  
+    background-color: rgba(245, 65, 65, 0.925);
+}
+.first{
+    padding-top: 50px;
+    padding-left: 100px;
+    ;
+}
+
+
+.first-table{height: 200px;
+    background-color: rgb(196, 190, 190);
+    width: 100%;
+}
+.first-table thead td{
+    padding: 20px;
+    background-color:#26a38a;
+    text-align: center;
+    color: azure;}
+    
+.first-table td{
+    border: 2px solid white;
+}
+span{
+    background-color:#26a38a;
+    
+    color: azure;
+}
+.first-table tbody td{
+    padding: 40px;
+
+    border-left: 4px solid #26a38a;
+}
+tr{
+    transition-duration: 3s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+}
+tr:hover{
+    background-color: rgb(151, 151, 151);
+    
+}
+
+
+
+
+@media (max-width: 575.98px) { .fff{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.TTT p{
+    text-align: end;
+
+    font-size: 15px;
+
+}
+.img{
+    width: min-content;
+    padding: 2px;
+    margin: 5px;
+    
+}
+
+}
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .fff{
+    
+
+    }
+
+
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+
+@media (min-width: 1200px) {  }
+
+
+
+
+  
+
+
+
+
+
+
+
+
